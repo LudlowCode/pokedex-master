@@ -132,7 +132,7 @@ class PokedexLookup(object):
             Used for creating the index and retrieving objects.  Defaults to an
             attempt to connect to the default SQLite database installed by
             `pokedex setup`.
-        """+
+        """
 
         # By the time this returns, self.index and self.session must be set
 
